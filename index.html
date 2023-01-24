@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+
+        <body>
+
+            <div id="sidebar" class="sidebar">
+                <img src="Assets/AnotherOne(Darkness).gif" width="300" height="300">
+
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9790;</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9789;</button>
+                
+              </div> 
+
+            <div id = intro style = "display: block;">
+                <p>
+                    <br><b>"Back Again"</b> is a short text adventure. Due to personal limitations <i>(and time)</i> I'll aim for this to be a quick but hopefully enjoyable <i>(and/or tolerable)</i> adventure...<br>
+                    ...maybe <b>"trip"</b> would be the better word.<br>
+                    <br>Either way I hope it's passable. To begin just press on the button bellow. Enjoy and have a good day.<br>
+                
+                    <br><button class = "cbutton" onclick ="show()">Start game </button>
+                </p>
+            </div>
+
+            <div id = awaken style="display: none;">
+                <p>
+                    <br>
+                    It's dark...
+                    <br><b>Just dark.</b> <br>
+                    <br>
+                    Been so for quite the while,<br> So much so that one finds themselfs doubting their eyes are even open... <br> <b>EVEN</b> after confirming this with touch. <br>
+                    <br> One would think they'd be dead if it wasn't for their other senses;<br> The harsh and bumpy wall behind one's back that roughly fuses into an equally harsh floor...<br>
+                    Said floor that seems to be covered in a thick layer of a...pleasent thin powder. Such powder one's been twindling with their fingers to pass the time.<br>
+                    <br>An... <i>apreciated</i> time burner... <br>
+                    But it's apreciation stops when said dust enters one's lungs... <br> <i>Making itself known with each breath...</i><br>
+                    A constant reminder...<br>
+                    <i>Of the passage of time.</i><br>
+                    <br> <b>A persistant annoyance.</b><br>
+                    <br> With makes one question<br>
+                    <br> <i>Why are we still waiting?</i><br>
+                    It's clearly broken, nothing happened! We can't just wait here, hoping this stupid decision turns around.<br>
+                    <br>
+                    <br>Just...<br><b>get up.</b><br>
+                    <br>
+                    <button class = "cbutton" onclick ="show2()">...</button>
+                </p>
+            </div>
+                
+            <div id = awaken2 style="display:none;">
+            <p>
+                <br>
+                <br>
+                <br> I said <b>GET UP!</b><br>
+                <br>
+                <br>
+                <br>
+                <button class = "cbutton" onclick="show3()">......</button>
+            </p>
+            </div>
+
+            <div id = awaken3 style="display:none;">
+            <p>
+                <br> Oh c'mon you bloody corpse!<br> <b> We failed! </b>
+                We can't just wait here forever. <br><br>If we hurry we may get back before they notice we ever left.<br>
+                <br> It's a Sunday, they may still be asleep. <br> <br> We have a <b>change!</b> <br> We can make sure they'll never find out where we went.<br>
+                <br> So please...<br> 
+                <br> ...let's <i>go</i>.<br>
+                <br>
+                <button class ="cbutton" onclick="show4()" >O-okay...</button>  
+            </p>
+            </div>
+
+            <div id = awaken4 style="display:none;">
+            <p>
+                <br>The darkness doesn't leave just from standing... <i>But at least we're able to wipe off all the dust clinging to our nethers.</i><br>
+                <br>With our hand against the wall we head to the entrance... <i><b>well the exit now.</b></i>
+                <br> It doesn't take long, there isn't that much space in here. <br> Once the wall's surface shows a noticeable change in texture, <b>we stop and give it a slight push on one of it's corners.</b><br>
+                <br>And then another push...<br>
+                <br>Followed by other two on the opposite corner...<br>
+                <br>...and a last one in the middle!<br><br>
+                <br>No reaction, <b>none at all...</b><br>
+                <br>
+                <button class ="cbutton" onclick="show5()" >...Really?</button>
+            </p>
+            </div>
+
+            <div id = awaken5 style="display:none">
+            <p>
+                <br>Well... <br> We really don't have other option <b>besides keep on pushing.</b> <br>
+                <br>It's either that or wait for starvation to end us and that's gonna be a <b>loooong</b> wait... <br> Might as well exhaust ourself while we can.<br>
+                <br>So...<br>
+                <br>Ready?<br>
+                <br>
+
+                <button class ="cbutton" onclick = "show6a()" >Search the floor </button>
+                <br>
+                <button class = "cbutton" onclick ="show6b()" >Start pushing </button>
+            </p>
+            </div>
+
+            <div id = awaken6a style="display:none">
+                <p>
+                    <br> With a rough breath we fall to our knees.<br>
+                    <br> Crawling around our short "cell" patting it's surface. Maybe we'd find something to help breach the door.<br>
+                    <br>
+                    <br>
+                    <br> <b>After a while of blindly wiping dust everywhere like a demented mole we call it quits.</b> Focusing our attention on the walls instead.<br>
+                    Maybe a loose pipe? A hole?<br>
+                    <br>
+                    <br><b>No...</b><i> no such luck.</i><br>
+                    <br>
+                    <button class="cbutton" onclick ="show6b()" >Guess we push...</button>
+                </p>
+            </div>
+
+            <div id = awaken6b style = "display:none">
+                <p>
+                     <br>Positioning ourselfs to where we remenber the handle being we start to push.<br>
+                     <b>And push.</b><br>
+                    <br> Focusing on keeping a constant pressure on the door.<br>
+                     Switching from pushing with our back to pushing with our shoulders...<br> Our hands... <br> ...a kick. <br><br>
+
+                    <br> <i>For a while this feels like a pathetic attempt at skinning ourselfs with it's rough surface until...</i> <br>
+                     <br><b>There!</b> <br> It just give in a little!<br>
+                     <i>Or is it gave out?</i> <b>No matter!</b> <br> With renewed hope we keep pushing! Shifting from a constant push to quick, sudden ones whenever another give makes itself known<br>
+                    <br> Slowly the door becomes looser until... <br><b>We suddenly dont feel it's presence anymore...</b> <br> <br>And collapse on the floor at the other side. <br>
+                    <br>
+                    <button class="cbutton" onclick="show7()" >Oww... </button>
+                </p>
+            </div>
+
+            <div id = out style="display:none">
+            <p>
+                <br>It feels embarassing...<br>
+                <i>Not because we fell</i><br>
+                <br> But for the fact that, <b>after all this</b>; we still flinch at the sharp pain coursing trough our chest as we hit the rusty floor.<br>
+                <br> <br> <b>...</b><br>
+                <br>
+                    Or maybe it's embarassing because we're leaving after all the drama. <b>Not such a grand departure as we imagined, uh?</b>
+                    <br>
+                    <button class = "cbutton" onclick="show8()">Just shut up...</button>
+            </p>
+            </div>
+
+            <div id = out2 style="display:none">
+            <p>
+                <br><i>Sorry...</i><br>
+                <br><b>We quickly get up</b>, wiping the dust and random scrap that stuck to our body<br>
+                <br> Looking around, the room you're in is clearer than from when you first arrived <br>
+                <br> Light is slipping in from the cracked ceiling, gently revealing your surroundings<br>
+                <br> Well... there really isn't much. Dirty walls, rusty floor that turns into a rough concrete one; <br>
+                <br> Not much to speak of, besides the big faded <b>"A03"</b> letters on a wall <i>next to the room's only door</i> <br>
+                <br> <b>And on the opposite corner...</b> the remains of a sink with a mostly intact mirror above it. <br>
+                <br> <br>Mind you... said sink's remains which are now serving as <i>a custom coathangar for a bunch of clothes.</i><br>
+                <br>
+                <br> <b>Our </b> clothes.<br><br>
+                <br> <button class = "cbutton" onclick ="show9a()">Look at the mirror.</button> <br>
+                <br> <button class ="cbutton" onclick="show9b()">Dress up.</button> <br>
+                <br> <button class ="cbutton" onclick = "show9c()">Leave the room </button>
+            </p>
+        </div>
+
+        <div id = out2a style="display:none">
+        <p>
+            <br>UHM...<br>
+            <br>Look. How about we dress up first<br>
+            <br> <b>THEN</b> we look into the mirror? <br>
+            <br><button class="cbutton" onclick ="show9ab()">What? Why can't I look first? </button> <br>
+            <button class ="cbutton" onclick ="show9b()">Fine, let's dress up.</button><br>
+        </p>
+        </div>
+
+        <div id = out2ab style ="display:none">
+        <p>
+            <br> Look we could but...<br>
+            <br> Well... <br> we may... uhm...<br>
+            <br> <b>WE MAY BE BEING WATCHED!</b><br><br>
+            <br> Yeah! <i>Naked and alone in an abandoned factory</i>, who knows who's watching...<b>judging...</b> 
+            <br> <b>Sooo... </b><br>
+            <br> Just put your clothes on first okay? <i>We dont have time.</i><br>
+            <br><button class ="cbutton" onclick="show9b()">I feel like there should be an option to look...but fine I'll dress up.</button><br> 
+        </p>
+        </div>
+
+        <div id = out2b style ="display:none">
+        <p>
+            <br> After a complimentaly <b>hard</b> shake we put our clothes on.<br>
+            <br> They go on with ease but the fact of dressing on such a silent... decrepit place fills us <br>
+            <br> Well, <b>with a certain unease.</b> Honestly <br>
+            <br> <i>Weird how we didn't feel this when we stripped on the first place...</i><br>
+            Well we had other thoughts at the time.<br>
+            <br>Regardless, with our final shoe tied up we face the mirror.<br>
+            <br>It needs a bit of a wipping with our sleeve but soon it reveals our figure. <br>
+            <img src="Assets/AnotherOne.gif" width="300" height="300"><br>
+            <br>
+            <br> <b>Hello there idiot.</b><br>
+            <br><i>hehe Sorry,</i> nothing seems off!<br>
+            <br> <b>We might just pull this off</b> as if nothing happened<br>
+            <br><br>
+            <button class="cbutton" onclick="show10()">Well let's head out then...</button><br>
+        </p></div>
+
+        <div id = out2c style="display:none">
+        <p>
+            <br><i>...</i><br>
+            <br>We are <b>NOT</b> going back home <b>NAKED!</b>
+            <br><br>
+            <button class ="cbutton" onclick="show9b()">Sorry!</button>
+        </p></div>
+
+        <div id = end style="display:none">
+        <p>
+            <br>We reach for the door and push it open <i>(it's doorknob, now, long gone...)</i><br><br>
+            <br>
+            <br> We would like to say there was more...<b>But we screwed up bad</b><br>
+            <br>
+            <br>Still we hope this was tolerable... <i>even if disapointing.</i><br>
+            <br>For now the adventure stands in hiatus, <b>maybe one day it will be remade and be able to truly shine!</b><br>
+            <br>But until then...we <b>all</b> wish you a good day and <i>and thank you for your patience</i><br>
+            <br>
+            <button class="cbutton">Goodbye!</button>
+        </p></div>
+        </body>
+    <script src="jscript.js"> </script>
+</html>
